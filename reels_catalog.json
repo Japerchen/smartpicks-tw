@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "timezone": "Asia/Taipei",
+  "purpose": "Public list of verified original educational Reels topics, with affiliate disclosures and no commission rates.",
+  "topics": [
+    {
+      "slug": "usb_c_hub",
+      "title": "USB-C Hub 三個選購重點",
+      "media_repo_path": "reels/usb_c_hub.mp4",
+      "media_url": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/usb_c_hub.mp4",
+      "caption": "🎬 USB-C Hub 三個選購重點\n\nUSB-C Hub 的接頭外型不代表一定支援影像輸出。選購前確認 DP Alt Mode、HDMI 解析度及更新率、PD 充電規格。\n\n📚 SmartPicksTW 原創選購知識與精選商品：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=facebook&utm_medium=reels&utm_campaign=usb_c_hub\n\n這是原創資訊整理，不是產品實測；網站含聯盟行銷連結，透過連結購買可能使本站獲得分潤。規格以原廠與賣場為準。\n\n#SmartPicksTW #3C知識 #選購指南"
+    },
+    {
+      "slug": "phone_stand",
+      "title": "磁吸手機支架的三項注意",
+      "media_repo_path": "reels/phone_stand.mp4",
+      "media_url": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/phone_stand.mp4",
+      "caption": "🎬 磁吸手機支架的三項注意\n\n選購磁吸支架，請核對手機殼相容性、吸附表面平整度與適用的固定時間，不要只相信「吸力超強」的賣場標題。\n\n📚 SmartPicksTW 原創選購知識與精選商品：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=facebook&utm_medium=reels&utm_campaign=phone_stand\n\n這是原創資訊整理，不是產品實測；網站含聯盟行銷連結，透過連結購買可能使本站獲得分潤。規格以原廠與賣場為準。\n\n#SmartPicksTW #3C知識 #選購指南"
+    },
+    {
+      "slug": "power_bank",
+      "title": "行動電源 mAh、Wh、W 差異",
+      "media_repo_path": "reels/power_bank.mp4",
+      "media_url": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/power_bank.mp4",
+      "caption": "🎬 行動電源 mAh、Wh、W 差異\n\nmAh、Wh、W 是三種不同資訊；充電次數取決於實際轉換損耗與裝置，搭機限制請依航空公司最新公告。\n\n📚 SmartPicksTW 原創選購知識與精選商品：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=facebook&utm_medium=reels&utm_campaign=power_bank\n\n這是原創資訊整理，不是產品實測；網站含聯盟行銷連結，透過連結購買可能使本站獲得分潤。規格以原廠與賣場為準。\n\n#SmartPicksTW #3C知識 #選購指南"
+    },
+    {
+      "slug": "usb_c_cable",
+      "title": "USB-C 線材看懂三種能力",
+      "media_repo_path": "reels/usb_c_cable.mp4",
+      "media_url": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/usb_c_cable.mp4",
+      "caption": "🎬 USB-C 線材看懂三種能力\n\n同樣的 USB-C 外形，充電、資料傳輸與影像輸出能力可能不同；選購前確認線材與來源設備的相容性。\n\n📚 SmartPicksTW 原創選購知識與精選商品：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=facebook&utm_medium=reels&utm_campaign=usb_c_cable\n\n這是原創資訊整理，不是產品實測；網站含聯盟行銷連結，透過連結購買可能使本站獲得分潤。規格以原廠與賣場為準。\n\n#SmartPicksTW #3C知識 #選購指南"
+    },
+    {
+      "slug": "hdmi_refresh",
+      "title": "4K HDMI 與 60Hz 的差別",
+      "media_repo_path": "reels/hdmi_refresh.mp4",
+      "media_url": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/hdmi_refresh.mp4",
+      "caption": "🎬 4K HDMI 與 60Hz 的差別\n\n解析度和更新率是不同規格，螢幕、來源裝置、轉接器與線材都可能影響實際支援模式。\n\n📚 SmartPicksTW 原創選購知識與精選商品：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=facebook&utm_medium=reels&utm_campaign=hdmi_refresh\n\n這是原創資訊整理，不是產品實測；網站含聯盟行銷連結，透過連結購買可能使本站獲得分潤。規格以原廠與賣場為準。\n\n#SmartPicksTW #3C知識 #選購指南"
+    },
+    {
+      "slug": "pd_charger",
+      "title": "100W 多孔充電器功率怎麼看",
+      "media_repo_path": "reels/pd_charger.mp4",
+      "media_url": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/pd_charger.mp4",
+      "caption": "🎬 100W 多孔充電器功率怎麼看\n\n多孔充電器標示最大功率，不一定每個連接埠都能同時達到標示值；請核對單孔輸出及多孔分配表。\n\n📚 SmartPicksTW 原創選購知識與精選商品：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=facebook&utm_medium=reels&utm_campaign=pd_charger\n\n這是原創資訊整理，不是產品實測；網站含聯盟行銷連結，透過連結購買可能使本站獲得分潤。規格以原廠與賣場為準。\n\n#SmartPicksTW #3C知識 #選購指南"
+    },
+    {
+      "slug": "ssd_enclosure",
+      "title": "為何外接 SSD 跑不出標示速度",
+      "media_repo_path": "reels/ssd_enclosure.mp4",
+      "media_url": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/ssd_enclosure.mp4",
+      "caption": "🎬 為何外接 SSD 跑不出標示速度\n\n外接 SSD 的速度與固態硬碟、外接盒、電腦埠及線材都有關，不能只看 SSD 包裝上的理論上限。\n\n📚 SmartPicksTW 原創選購知識與精選商品：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=facebook&utm_medium=reels&utm_campaign=ssd_enclosure\n\n這是原創資訊整理，不是產品實測；網站含聯盟行銷連結，透過連結購買可能使本站獲得分潤。規格以原廠與賣場為準。\n\n#SmartPicksTW #3C知識 #選購指南"
+    },
+    {
+      "slug": "wifi_bands",
+      "title": "Wi-Fi 2.4GHz 和 5GHz 怎麼選",
+      "media_repo_path": "reels/wifi_bands.mp4",
+      "media_url": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/wifi_bands.mp4",
+      "caption": "🎬 Wi-Fi 2.4GHz 和 5GHz 怎麼選\n\n2.4GHz 與 5GHz 有不同的覆蓋與干擾特性，實際速度還受到路由器、環境及設備能力影響。\n\n📚 SmartPicksTW 原創選購知識與精選商品：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=facebook&utm_medium=reels&utm_campaign=wifi_bands\n\n這是原創資訊整理，不是產品實測；網站含聯盟行銷連結，透過連結購買可能使本站獲得分潤。規格以原廠與賣場為準。\n\n#SmartPicksTW #3C知識 #選購指南"
+    },
+    {
+      "slug": "monitor_refresh",
+      "title": "144Hz 不等於遊戲一定 144FPS",
+      "media_repo_path": "reels/monitor_refresh.mp4",
+      "media_url": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/monitor_refresh.mp4",
+      "caption": "🎬 144Hz 不等於遊戲一定 144FPS\n\n螢幕更新率 Hz 與遊戲 FPS 是不同概念，還要考慮電腦效能以及視訊連接介面的支援能力。\n\n📚 SmartPicksTW 原創選購知識與精選商品：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=facebook&utm_medium=reels&utm_campaign=monitor_refresh\n\n這是原創資訊整理，不是產品實測；網站含聯盟行銷連結，透過連結購買可能使本站獲得分潤。規格以原廠與賣場為準。\n\n#SmartPicksTW #3C知識 #選購指南"
+    },
+    {
+      "slug": "usb_storage",
+      "title": "USB 隨身碟容量不等於速度",
+      "media_repo_path": "reels/usb_storage.mp4",
+      "media_url": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/usb_storage.mp4",
+      "caption": "🎬 USB 隨身碟容量不等於速度\n\nUSB 隨身碟的容量、讀取速度與寫入速度是不同指標，實際傳輸也會受到檔案與主機介面影響。\n\n📚 SmartPicksTW 原創選購知識與精選商品：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=facebook&utm_medium=reels&utm_campaign=usb_storage\n\n這是原創資訊整理，不是產品實測；網站含聯盟行銷連結，透過連結購買可能使本站獲得分潤。規格以原廠與賣場為準。\n\n#SmartPicksTW #3C知識 #選購指南"
+    },
+    {
+      "slug": "wireless_charge",
+      "title": "磁吸不等於支援無線充電",
+      "media_repo_path": "reels/wireless_charge.mp4",
+      "media_url": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/wireless_charge.mp4",
+      "caption": "🎬 磁吸不等於支援無線充電\n\n磁吸結構可以只用於固定定位，並不代表手機或配件一定支援無線充電；選購時請分別核對規格。\n\n📚 SmartPicksTW 原創選購知識與精選商品：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=facebook&utm_medium=reels&utm_campaign=wireless_charge\n\n這是原創資訊整理，不是產品實測；網站含聯盟行銷連結，透過連結購買可能使本站獲得分潤。規格以原廠與賣場為準。\n\n#SmartPicksTW #3C知識 #選購指南"
+    },
+    {
+      "slug": "usb_power",
+      "title": "標榜 5A 的線材就有快充嗎",
+      "media_repo_path": "reels/usb_power.mp4",
+      "media_url": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/usb_power.mp4",
+      "caption": "🎬 標榜 5A 的線材就有快充嗎\n\n快充仰賴充電器、線材和裝置協定共同相容，不是只換一條標榜 5A 的線就能保證充電速度。\n\n📚 SmartPicksTW 原創選購知識與精選商品：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=facebook&utm_medium=reels&utm_campaign=usb_power\n\n這是原創資訊整理，不是產品實測；網站含聯盟行銷連結，透過連結購買可能使本站獲得分潤。規格以原廠與賣場為準。\n\n#SmartPicksTW #3C知識 #選購指南"
+    }
+  ]
+}
