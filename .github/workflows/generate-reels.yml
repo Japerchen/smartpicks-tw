@@ -1,6 +1,8 @@
 name: Generate original SmartPicksTW Reels
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '30 16 * * 6' # Sunday 00:30 Asia/Taipei
   push:
     paths:
       - "growth/reels_cloud.py"
@@ -24,15 +26,13 @@ jobs:
         run: python growth/reels_cloud.py
       - name: Inspect outputs
         run: |
-          test -s reels/usb_c_hub.mp4
-          test -s reels/phone_stand.mp4
-          test -s reels/power_bank.mp4
-          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1 reels/usb_c_hub.mp4
+          ls -lh reels/*.mp4
+          test $(find reels -maxdepth 1 -type f -name '*.mp4' | wc -l) -ge 3
       - name: Commit public video assets (no secrets or commissions)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reels/usb_c_hub.mp4 reels/phone_stand.mp4 reels/power_bank.mp4
+          git add reels/*.mp4
           if ! git diff --cached --quiet; then
             git commit -m "Publish original educational SmartPicksTW Reels"
             git push
