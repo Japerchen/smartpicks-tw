@@ -1,26 +1,24 @@
 # SmartPicksTW — GA4 個別商品點擊分析（V1 準備完成）
 
-更新日期：2026-10-23，台灣時間
+更新日期：2026-10-23，台灣時間（已啟用 GA4 Measurement ID，待公開站測試）
 
 ## 實際完成狀態
 - `index.html` 中的 100 個蝦皮商品按鈕均已加入 `data-product-id` / `data-product-category` 作為非私人產品辨識資訊。
 - 100 條 `https://s.shopee.tw/` 真實聯盟連結原樣保留，沒有添加中繼站、改寫短連結或自動跳轉。
 - `guides.html` 的已知蝦皮商品連結也有獨立產品 ID。
 - `analytics-config.js` 和 `outbound-analytics.js` 已加入首頁、指南與關於頁。
-- **測量 ID 目前留空，GA4 未啟用。** 這時不會發送任何 GA4 事件，也不會載入 Google Analytics script。
-- 若設定有效測量 ID，訪客首次進入時會看到分析同意或拒絕的選項；只有同意才會載入 Google script。使用者可在 `about.html` 修改偏好。
+- **已設定 GA4 測量 ID `G-GLD8BQ37MK`（2026-10-23）。** GA4 僅在訪客選擇「同意分析」後載入，拒絕時不載入；部署後的真實事件仍須透過 GA4 Realtime 確認。
+- 訪客首次進入時會看到分析同意或拒絕的選項；只有同意才會載入 Google script。使用者可在 `about.html` 修改偏好。
 - 原本已接上的 Metricool 訪客統計保留，並不等同 GA4 產品事件。
 - 目前尚未產生網站全體的商品點擊統計，也沒有蝦皮實際訂單／分潤資料。
 
-## 讓正式數據開始計入（僅需 GA4 Measurement ID）
-1. 進入 https://analytics.google.com ，使用自己管理的 Google 帳號。
-2. 若沒有帳戶，建立 Google Analytics 帳戶，例如 `SmartPicksTW`。
-3. 建立 GA4 資源（Property），時區選 `Asia/Taipei`、幣別選 `TWD`。
-4. 建立 Web 資料串流，網址填 `https://japerchen.github.io/smartpicks-tw/`。
-5. 在 Web data stream 詳細設定中複製 **Measurement ID**，例如 `G-XXXXXXXXXX`。此 ID 是公開的網站資料串流標識，不是 Google 密碼或 API 私鑰。
-6. 由管理人員把這個 ID 寫進 GitHub 根目錄的 `analytics-config.js` 的 `measurementId` 欄位，其他檔案不需要再次安裝。
-7. 同步調整 `about.html` 隱私聲明，說明 GA4 啟用與使用者同意；GitHub Pages 部署後，在無痕視窗確認同意選擇正常。
-8. 使用 GA4 **Realtime／DebugView** 做測試；需點選「同意分析」再按一個商品按鈕才能有 `select_item` 事件。不要為測試購買商品。
+## 已完成 GA4 Measurement ID 安裝；剩餘公開站驗證
+1. 已從使用者的 Google Analytics 設定畫面確認測量 ID `G-GLD8BQ37MK`，並寫入 GitHub 根目錄 `analytics-config.js`，無須另外複製 Google 官方整段標籤。
+2. 已更新 `about.html` 隱私聲明，保留 Metricool 訪客分析與蝦皮聯盟揭露。
+3. GitHub Pages 部署後，在新的無痕視窗開啟 https://japerchen.github.io/smartpicks-tw/ ，選擇 **同意分析**。此操作不需要購買商品。
+4. 使用 GA4 **報表 → 即時總覽（Realtime）** 確認 `page_view`。若要確認 `select_item`，在已同意分析的瀏覽器中點一次「前往蝦皮看看」按鈕；不要完成結帳。
+5. 如果沒有事件出現，先確認 GitHub Pages 是否已更新，並檢查瀏覽器擴充套件是否阻擋 Google Analytics；不要重複插入 Google tag。
+6. 任何測試產生的事件都是網站互動，不代表真實購買。
 
 官方說明：
 - GA4 設定：https://support.google.com/analytics/answer/14183469
