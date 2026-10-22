@@ -45,10 +45,10 @@ Read actual Metricool Facebook Page Followers, Page Views, feed posts, Reels vid
 - Five original ~20s educational video files were confirmed in GitHub: `reels/usb_c_hub.mp4`, `reels/phone_stand.mp4`, `reels/power_bank.mp4`, `reels/usb_c_cable.mp4`, `reels/hdmi_refresh.mp4`.
 - `youtube_shorts_manifest.json` contains verified video references, Traditional Chinese Shorts metadata, UTM guides links, affiliate disclosures, and optional dates.
 - `youtube_shorts_upload.csv` contains spreadsheet-friendly publishing metadata; `YOUTUBE_SHORTS_DEPLOYMENT.md` has full operator steps.
-- **Current YouTube state: not connected to this Metricool brand. Therefore zero Shorts were scheduled on YouTube.** Only the channel owner can authenticate via Google. Do not claim YouTube has been posted.
+- **YouTube connected as of 2026-10-23.** Two Metricool YouTube Shorts were accepted for auto-publication: 2026-11-11 20:00 (`403438543`, USB-C Hub) and 2026-11-25 20:00 (`403438751`, magnetic phone stand), Asia/Taipei. Both were independently confirmed PENDING, meaning not yet public. Leave remaining 3 prepared videos unscheduled unless there is a confirmed spare posting allowance.
 - Metricool Free counts 20 posts **published** per month across social networks. Each social network counts separately. In Nov 2026 the intended Facebook plan is about 18 posts including Nov 1, leaving room for up to two YouTube Shorts if no additional posts consume allowance. Suggested Shorts slots: Nov 11/25 at 20:00 Taiwan. Query actual posts and account status before scheduling.
 
 ## Initial launch
 As of 2026-10-22, five Facebook product promotion posts and three original video Reels were scheduled. The original videos have been accepted and rehosted by Metricool, and the eight entries were independently confirmed as Pending. Initial Facebook Analytics indicates zero Page Followers. New posts cannot guarantee reach, follows, or purchases.
 
-_Update: 2026-10-23 · GA4 click tracking verified in user's realtime screenshot; 5 YouTube shorts assets/metadata ready, YouTube authentication pending._
+_Update: 2026-10-23 · GA4 click tracking verified in user's realtime screenshot; YouTube authenticated and two original Shorts pending auto-publication on Nov 11/25._
