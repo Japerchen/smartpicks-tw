@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "purpose": "Track scheduled Facebook product promotions to avoid repeat picks. Contains no commission or private customer data.",
+  "timezone": "Asia/Taipei",
+  "schedule": {
+    "days": [
+      "MO",
+      "WE",
+      "FR",
+      "SU"
+    ],
+    "time": "20:00"
+  },
+  "posts": [
+    {
+      "product_id": "27687500495",
+      "date": "2026-10-23",
+      "label": "Bluetooth speaker",
+      "status": "scheduled"
+    },
+    {
+      "product_id": "41251665857",
+      "date": "2026-10-26",
+      "label": "POK DOT Elite",
+      "status": "scheduled"
+    },
+    {
+      "product_id": "25829446343",
+      "date": "2026-10-28",
+      "label": "Black HAMMER 930ml",
+      "status": "scheduled"
+    },
+    {
+      "product_id": "26528572943",
+      "date": "2026-10-30",
+      "label": "SKINTIFIC 5X 30g",
+      "status": "scheduled"
+    },
+    {
+      "product_id": "42719651993",
+      "date": "2026-11-01",
+      "label": "adidas STADT",
+      "status": "scheduled"
+    }
+  ]
+}
