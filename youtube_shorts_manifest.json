@@ -3,14 +3,14 @@
   "createdAt": "2026-10-23",
   "brand": "SmartPicksTW",
   "channelIntended": "Tech Finds Lab (owner must explicitly connect correct YouTube channel in Metricool)",
-  "status": "ASSETS_READY_NOT_SCHEDULED",
+  "status": "TWO_YOUTUBE_SHORTS_SCHEDULED",
   "platform": "youtube",
   "timeZone": "Asia/Taipei",
   "policy": {
     "freePlanMonthlyLimit": 20,
     "facebookMonthlyPlanningAllowance": 18,
     "youtubeShortsSuggestedPerMonth": 2,
-    "doNotScheduleUntilYoutubeConnected": true,
+    "doNotScheduleUntilYoutubeConnected": false,
     "doNotClaimPublished": true,
     "allVideosOriginal": true
   },
@@ -36,7 +36,9 @@
         "category": "Science & Technology",
         "needsChannelVerificationCheck": true
       },
-      "metricoolStatus": "NOT_SCHEDULED"
+      "metricoolStatus": "SCHEDULED_PENDING",
+      "metricoolPostId": 403438543,
+      "metricoolPlannerUrl": "https://app.metricool.com/planner/calendar?blogId=7545618&openWithPostUuid=9076420206432503131"
     },
     {
       "slug": "phone_stand",
@@ -59,7 +61,9 @@
         "category": "Science & Technology",
         "needsChannelVerificationCheck": true
       },
-      "metricoolStatus": "NOT_SCHEDULED"
+      "metricoolStatus": "SCHEDULED_PENDING",
+      "metricoolPostId": 403438751,
+      "metricoolPlannerUrl": "https://app.metricool.com/planner/calendar?blogId=7545618&openWithPostUuid=-1026376632114592977"
     },
     {
       "slug": "power_bank",
@@ -130,5 +134,6 @@
       },
       "metricoolStatus": "NOT_SCHEDULED"
     }
-  ]
+  ],
+  "updatedAt": "2026-10-23"
 }
