@@ -10,12 +10,6 @@ W,H,FPS=720,1280,25
 FONT='/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc'
 BOLD='/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc'
 TOPICS={
-'usb_c_hub':[
-('USB-C Hub\n插得進去，\n不等於有畫面！','先別急著下單｜20 秒看懂'),
-('01 / 先看電腦','USB-C 埠是否支援\n影像輸出（DP Alt Mode）？'),
-('02 / 再看螢幕','HDMI 的解析度與\n更新率要一起確認'),
-('03 / 最後看供電','標示 100W PD，\n不代表筆電一定拿到 100W'),
-('先學會看規格，\n再挑適合的配件。','更多選購指南在\nSmartPicksTW 網站')],
 'phone_stand':[
 ('磁吸支架\n為何有時吸不牢？','選購前先懂 3 件事'),
 ('01 / 先看手機','磁吸環／手機殼\n是否真的相容？'),
