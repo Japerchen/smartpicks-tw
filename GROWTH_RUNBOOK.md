@@ -31,7 +31,7 @@ Turn a newly launched Facebook Page with zero followers into an audience that tr
 - Only share in groups when moderators permit relevant posts; avoid spam.
 
 ## Weekly check
-Read actual Metricool Facebook Page Followers, Page Views, feed posts, Reels video views, and interactions. Separate new followers from views and business value. **No site visitor or conversion analytics are connected**; `utm_*` query parameters in Reels links are future measurement preparation, not proof of click count or revenue.
+Read actual Metricool Facebook Page Followers, Page Views, feed posts, Reels video views, and interactions. Separate new followers from views and business value. **Metricool website tracking has been installed and its Realtime display has shown a test visitor. GA4 measurement G-GLD8BQ37MK has also been configured, and a consented test sent `select_item` successfully.** Still distinguish test events from real acquisition, do not assume website visits, affiliate orders or sales from Facebook Reels impressions. Real GA4 click counts can lag and are not a purchase confirmation.
 
 ## Constraints and safeguards
 - Metricool plan currently showed a 20-post monthly allowance; new post attempts should stop or reduce cadence as limits approach. This is a verified UI snapshot, not an assumption about future billing.
@@ -40,5 +40,15 @@ Read actual Metricool Facebook Page Followers, Page Views, feed posts, Reels vid
 - The initial 12 evergreen video topics will eventually be exhausted. Do not repeat an old asset while pretending it is new; report that the library needs original new topics.
 - Never change Shopee affiliate short URLs or reveal secret internal affiliate details.
 
+
+## YouTube Shorts expansion (prepared, not connected)
+- Five original ~20s educational video files were confirmed in GitHub: `reels/usb_c_hub.mp4`, `reels/phone_stand.mp4`, `reels/power_bank.mp4`, `reels/usb_c_cable.mp4`, `reels/hdmi_refresh.mp4`.
+- `youtube_shorts_manifest.json` contains verified video references, Traditional Chinese Shorts metadata, UTM guides links, affiliate disclosures, and optional dates.
+- `youtube_shorts_upload.csv` contains spreadsheet-friendly publishing metadata; `YOUTUBE_SHORTS_DEPLOYMENT.md` has full operator steps.
+- **Current YouTube state: not connected to this Metricool brand. Therefore zero Shorts were scheduled on YouTube.** Only the channel owner can authenticate via Google. Do not claim YouTube has been posted.
+- Metricool Free counts 20 posts **published** per month across social networks. Each social network counts separately. In Nov 2026 the intended Facebook plan is about 18 posts including Nov 1, leaving room for up to two YouTube Shorts if no additional posts consume allowance. Suggested Shorts slots: Nov 11/25 at 20:00 Taiwan. Query actual posts and account status before scheduling.
+
 ## Initial launch
 As of 2026-10-22, five Facebook product promotion posts and three original video Reels were scheduled. The original videos have been accepted and rehosted by Metricool, and the eight entries were independently confirmed as Pending. Initial Facebook Analytics indicates zero Page Followers. New posts cannot guarantee reach, follows, or purchases.
+
+_Update: 2026-10-23 · GA4 click tracking verified in user's realtime screenshot; 5 YouTube shorts assets/metadata ready, YouTube authentication pending._
