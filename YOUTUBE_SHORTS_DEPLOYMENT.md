@@ -62,3 +62,5 @@ Metricool 免費方案每月最多**實際發布 20 篇**，同一內容發到 F
 
 ## 2026-10-23 更正：USB-C Hub 並非現有導購商品
 已重新檢索網站 100 筆庫存：沒有 USB-C Hub／集線器。原本 11/11 的 USB-C Hub 教學 Short 已在 Metricool 原地更新成《USB-C 線材都一樣？》原創影片，保留 20:00 自動發布，新的 Metricool ID 為 `403442945`。文案只連結實際存在的 Type-C 充電線商品 `21295904242`（`https://s.shopee.tw/4LKIFe9whm`），明確區分知識內容與非實測商品，未改動蝦皮短網址。USB-C Hub 題材保留為未排程的純知識備稿，不能當作 100 商品中的商品推薦。
+
+Facebook Reel 2026-10-24 原 USB-C Hub 主題也已一併修正為 USB-C 線材知識（Metricool ID 403444733），保留原 20:00 自動發文時間，並在 GitHub social_automation_state.json 同步記錄。兩平台皆已回查 Pending。
