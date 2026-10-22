@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "createdAt": "2026-10-23",
+  "brand": "SmartPicksTW",
+  "channelIntended": "Tech Finds Lab (owner must explicitly connect correct YouTube channel in Metricool)",
+  "status": "ASSETS_READY_NOT_SCHEDULED",
+  "platform": "youtube",
+  "timeZone": "Asia/Taipei",
+  "policy": {
+    "freePlanMonthlyLimit": 20,
+    "facebookMonthlyPlanningAllowance": 18,
+    "youtubeShortsSuggestedPerMonth": 2,
+    "doNotScheduleUntilYoutubeConnected": true,
+    "doNotClaimPublished": true,
+    "allVideosOriginal": true
+  },
+  "shorts": [
+    {
+      "slug": "usb_c_hub",
+      "title": "USB-C Hub 插上卻沒畫面？買前先看這 3 件事！#Shorts",
+      "originalVideoPath": "reels/usb_c_hub.mp4",
+      "originalVideoUrl": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/usb_c_hub.mp4",
+      "shortType": "original_text_motion_graphics",
+      "vertical": true,
+      "durationApproxSeconds": 20,
+      "suggestedLocalSchedule": "2026-11-11T20:00:00+08:00",
+      "description": "USB-C 接頭的存在不代表一定有影像輸出功能；還要看筆電 DP Alt Mode、HDMI 解析度/更新率和 PD 供電。\n\n📚 原創 3C 選購知識與更多實用資訊：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=youtube&utm_medium=shorts&utm_campaign=usb_c_hub\n\n由 Tech Finds Lab × SmartPicksTW 整理。內容為一般選購知識，非親自開箱或產品測試。指南網站可能包含蝦皮聯盟行銷連結，透過連結購買可能使本站獲得分潤，實際規格請以原廠和賣場為準。\n\n#Shorts #SmartPicksTW #3C知識 #選購指南",
+      "hashtags": [
+        "#Shorts",
+        "#SmartPicksTW",
+        "#3C知識"
+      ],
+      "uploadSettings": {
+        "isMadeForKids": false,
+        "privacy": "PUBLIC",
+        "category": "Science & Technology",
+        "needsChannelVerificationCheck": true
+      },
+      "metricoolStatus": "NOT_SCHEDULED"
+    },
+    {
+      "slug": "phone_stand",
+      "title": "磁吸手機支架為何吸不牢？3 個選購必看重點 #Shorts",
+      "originalVideoPath": "reels/phone_stand.mp4",
+      "originalVideoUrl": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/phone_stand.mp4",
+      "shortType": "original_text_motion_graphics",
+      "vertical": true,
+      "durationApproxSeconds": 20,
+      "suggestedLocalSchedule": "2026-11-25T20:00:00+08:00",
+      "description": "選購前先核對磁吸相容性、吸附表面平整度及產品適用的固定使用情境。\n\n📚 原創 3C 選購知識與更多實用資訊：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=youtube&utm_medium=shorts&utm_campaign=phone_stand\n\n由 Tech Finds Lab × SmartPicksTW 整理。內容為一般選購知識，非親自開箱或產品測試。指南網站可能包含蝦皮聯盟行銷連結，透過連結購買可能使本站獲得分潤，實際規格請以原廠和賣場為準。\n\n#Shorts #SmartPicksTW #3C知識 #選購指南",
+      "hashtags": [
+        "#Shorts",
+        "#SmartPicksTW",
+        "#3C知識"
+      ],
+      "uploadSettings": {
+        "isMadeForKids": false,
+        "privacy": "PUBLIC",
+        "category": "Science & Technology",
+        "needsChannelVerificationCheck": true
+      },
+      "metricoolStatus": "NOT_SCHEDULED"
+    },
+    {
+      "slug": "power_bank",
+      "title": "20000mAh 充電寶到底能充幾次？先搞懂 mAh、Wh、W #Shorts",
+      "originalVideoPath": "reels/power_bank.mp4",
+      "originalVideoUrl": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/power_bank.mp4",
+      "shortType": "original_text_motion_graphics",
+      "vertical": true,
+      "durationApproxSeconds": 20,
+      "suggestedLocalSchedule": null,
+      "description": "mAh 表示容量，Wh 表示能量，W 表示功率；三者不同，轉換損耗與充電相容性都會影響實際使用。\n\n📚 原創 3C 選購知識與更多實用資訊：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=youtube&utm_medium=shorts&utm_campaign=power_bank\n\n由 Tech Finds Lab × SmartPicksTW 整理。內容為一般選購知識，非親自開箱或產品測試。指南網站可能包含蝦皮聯盟行銷連結，透過連結購買可能使本站獲得分潤，實際規格請以原廠和賣場為準。\n\n#Shorts #SmartPicksTW #3C知識 #選購指南",
+      "hashtags": [
+        "#Shorts",
+        "#SmartPicksTW",
+        "#3C知識"
+      ],
+      "uploadSettings": {
+        "isMadeForKids": false,
+        "privacy": "PUBLIC",
+        "category": "Science & Technology",
+        "needsChannelVerificationCheck": true
+      },
+      "metricoolStatus": "NOT_SCHEDULED"
+    },
+    {
+      "slug": "usb_c_cable",
+      "title": "USB-C 線材都一樣？充電、資料傳輸、影像差很大 #Shorts",
+      "originalVideoPath": "reels/usb_c_cable.mp4",
+      "originalVideoUrl": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/usb_c_cable.mp4",
+      "shortType": "original_text_motion_graphics",
+      "vertical": true,
+      "durationApproxSeconds": 20,
+      "suggestedLocalSchedule": null,
+      "description": "相同外形的 USB-C 線材，不代表有相同的充電功率、傳輸速度及影像輸出能力。\n\n📚 原創 3C 選購知識與更多實用資訊：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=youtube&utm_medium=shorts&utm_campaign=usb_c_cable\n\n由 Tech Finds Lab × SmartPicksTW 整理。內容為一般選購知識，非親自開箱或產品測試。指南網站可能包含蝦皮聯盟行銷連結，透過連結購買可能使本站獲得分潤，實際規格請以原廠和賣場為準。\n\n#Shorts #SmartPicksTW #3C知識 #選購指南",
+      "hashtags": [
+        "#Shorts",
+        "#SmartPicksTW",
+        "#3C知識"
+      ],
+      "uploadSettings": {
+        "isMadeForKids": false,
+        "privacy": "PUBLIC",
+        "category": "Science & Technology",
+        "needsChannelVerificationCheck": true
+      },
+      "metricoolStatus": "NOT_SCHEDULED"
+    },
+    {
+      "slug": "hdmi_refresh",
+      "title": "4K HDMI 不一定是 60Hz！3 個規格注意事項 #Shorts",
+      "originalVideoPath": "reels/hdmi_refresh.mp4",
+      "originalVideoUrl": "https://raw.githubusercontent.com/Japerchen/smartpicks-tw/main/reels/hdmi_refresh.mp4",
+      "shortType": "original_text_motion_graphics",
+      "vertical": true,
+      "durationApproxSeconds": 20,
+      "suggestedLocalSchedule": null,
+      "description": "確認螢幕、來源設備、轉接器和線材是否同時支援目標解析度與更新率。\n\n📚 原創 3C 選購知識與更多實用資訊：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=youtube&utm_medium=shorts&utm_campaign=hdmi_refresh\n\n由 Tech Finds Lab × SmartPicksTW 整理。內容為一般選購知識，非親自開箱或產品測試。指南網站可能包含蝦皮聯盟行銷連結，透過連結購買可能使本站獲得分潤，實際規格請以原廠和賣場為準。\n\n#Shorts #SmartPicksTW #3C知識 #選購指南",
+      "hashtags": [
+        "#Shorts",
+        "#SmartPicksTW",
+        "#3C知識"
+      ],
+      "uploadSettings": {
+        "isMadeForKids": false,
+        "privacy": "PUBLIC",
+        "category": "Science & Technology",
+        "needsChannelVerificationCheck": true
+      },
+      "metricoolStatus": "NOT_SCHEDULED"
+    }
+  ]
+}
