@@ -71,7 +71,7 @@
     const a = origin && origin.closest ? origin.closest('a[data-product-id][href^="https://s.shopee.tw/"]') : null;
     if (!a) return;
     const pid = a.getAttribute("data-product-id");
-    if (!pid || !/^\\d+$/.test(pid)) return;
+    if (!pid || !/^\d+$/.test(pid)) return;
     const card = a.closest(".card");
     const title = (a.getAttribute("data-product-name") || (card && card.querySelector(".name") && card.querySelector(".name").textContent) || "").slice(0,120);
     const category = a.getAttribute("data-product-category") || (card && card.getAttribute("data-category")) || "其他";
