@@ -1,7 +1,7 @@
 // SmartPicksTW GA4 integration configuration.
-// Paste the public GA4 web measurement ID (format G-XXXXXXXXXX) after creating a GA4 web data stream.
-// An empty measurementId disables GA4 entirely. The existing Metricool website tracker remains active.
+// GA4 Web Stream measurement ID for SmartPicksTW, read from the user's GA4 setup screen.
+// GA4 only loads after visitor opt-in. The existing Metricool website tracker remains active.
 window.SPTW_ANALYTICS_CONFIG = Object.freeze({
-  measurementId: "",
+  measurementId: "G-GLD8BQ37MK",
   consentStorageKey: "smartpickstw_ga4_analytics_consent_v1"
 });
