@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "createdAt": "2026-10-23",
+  "inventorySource": "index.html#inventory",
+  "catalogSource": "reels_catalog.json",
+  "scope": "Explicit ID mapping. General educational topics are separated from real 100-product offers.",
+  "affiliateLinks": "use only live product inventory affiliate_url; never generate",
+  "matchingPolicy": "Never infer product functionality beyond the title; exclude flagged goods; don't claim hands-on tests",
+  "topics": [
+    {
+      "slug": "phone_stand",
+      "promotionMode": "product_related",
+      "eligibleForAutomaticDirectProductPromotion": true,
+      "productIds": [
+        "21796229749"
+      ],
+      "label": "旋轉磁吸支架手機殼",
+      "accuracyNote": "請確認手機型號與支架結構；與 POK DOT Elite 屬不同商品"
+    },
+    {
+      "slug": "power_bank",
+      "promotionMode": "product_related",
+      "eligibleForAutomaticDirectProductPromotion": true,
+      "productIds": [
+        "5601973581",
+        "26918149411"
+      ],
+      "label": "口袋行動電源",
+      "accuracyNote": "實際容量、充電協定及安全性均以原廠／賣場規格為準"
+    },
+    {
+      "slug": "usb_c_cable",
+      "promotionMode": "product_related",
+      "eligibleForAutomaticDirectProductPromotion": true,
+      "productIds": [
+        "21295904242",
+        "29615726704"
+      ],
+      "label": "Type-C 充電與傳輸線",
+      "accuracyNote": "請勿把商品標成支援影像輸出；需另外核對規格"
+    },
+    {
+      "slug": "hdmi_refresh",
+      "promotionMode": "education_only",
+      "eligibleForAutomaticDirectProductPromotion": false,
+      "productIds": [],
+      "label": "無已核實相符的商品",
+      "accuracyNote": "僅可作獨立技術教育，不得宣稱對應商品已上架或含其聯盟連結"
+    },
+    {
+      "slug": "pd_charger",
+      "promotionMode": "education_only",
+      "eligibleForAutomaticDirectProductPromotion": false,
+      "productIds": [],
+      "label": "無已核實相符的商品",
+      "accuracyNote": "僅可作獨立技術教育，不得宣稱對應商品已上架或含其聯盟連結"
+    },
+    {
+      "slug": "ssd_enclosure",
+      "promotionMode": "education_only",
+      "eligibleForAutomaticDirectProductPromotion": false,
+      "productIds": [],
+      "label": "無已核實相符的商品",
+      "accuracyNote": "僅可作獨立技術教育，不得宣稱對應商品已上架或含其聯盟連結"
+    },
+    {
+      "slug": "wifi_bands",
+      "promotionMode": "education_only",
+      "eligibleForAutomaticDirectProductPromotion": false,
+      "productIds": [],
+      "label": "無已核實相符的商品",
+      "accuracyNote": "僅可作獨立技術教育，不得宣稱對應商品已上架或含其聯盟連結"
+    },
+    {
+      "slug": "monitor_refresh",
+      "promotionMode": "education_only",
+      "eligibleForAutomaticDirectProductPromotion": false,
+      "productIds": [],
+      "label": "無已核實相符的商品",
+      "accuracyNote": "僅可作獨立技術教育，不得宣稱對應商品已上架或含其聯盟連結"
+    },
+    {
+      "slug": "usb_storage",
+      "promotionMode": "education_only",
+      "eligibleForAutomaticDirectProductPromotion": false,
+      "productIds": [],
+      "label": "無已核實相符的商品",
+      "accuracyNote": "僅可作獨立技術教育，不得宣稱對應商品已上架或含其聯盟連結"
+    },
+    {
+      "slug": "wireless_charge",
+      "promotionMode": "education_only",
+      "eligibleForAutomaticDirectProductPromotion": false,
+      "productIds": [],
+      "label": "無已核實相符的商品",
+      "accuracyNote": "僅可作獨立技術教育，不得宣稱對應商品已上架或含其聯盟連結"
+    },
+    {
+      "slug": "usb_power",
+      "promotionMode": "product_related",
+      "eligibleForAutomaticDirectProductPromotion": true,
+      "productIds": [
+        "25374621561",
+        "21295904242"
+      ],
+      "label": "快充線材",
+      "accuracyNote": "不能由標題中的 240W 或 PD 推定能在任意裝置達到額定功率"
+    }
+  ]
+}
