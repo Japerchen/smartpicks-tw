@@ -52,3 +52,6 @@ Read actual Metricool Facebook Page Followers, Page Views, feed posts, Reels vid
 As of 2026-10-22, five Facebook product promotion posts and three original video Reels were scheduled. The original videos have been accepted and rehosted by Metricool, and the eight entries were independently confirmed as Pending. Initial Facebook Analytics indicates zero Page Followers. New posts cannot guarantee reach, follows, or purchases.
 
 _Update: 2026-10-23 · GA4 click tracking verified in user's realtime screenshot; YouTube authenticated and two original Shorts pending auto-publication on Nov 11/25._
+
+## 2026-10-23 product-catalog correction
+Actual public 100-product inventory contains zero USB-C Hub products. To keep promotional content aligned with actual products, Facebook 2026-10-24 20:00 Reel now uses the original USB-C cable explainer (Metricool Post ID `403444733`), and YouTube 2026-11-11 20:00 uses the same authentic cable educational video (ID `403442945`). Both are confirmed PENDING and autoPublish. Copy links to actual product ID `21295904242`, not a fabricated Hub product. The original Hub tutorial remains unscheduled educational material only. reels_catalog.json omits Hub to prevent the weekly automation from putting it back.
