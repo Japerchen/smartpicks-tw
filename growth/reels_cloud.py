@@ -27,7 +27,70 @@ TOPICS={
 ('01 / mAh','代表電荷容量，\n不等於可充手機次數'),
 ('02 / Wh','代表能量，計算時\n需要知道標示電壓'),
 ('03 / W','功率與快充能力有關，\n還要看協定和線材'),
-('mAh、Wh、W\n是三件不同的事。','完整 3C 選購指南在\nSmartPicksTW 網站')]
+('mAh、Wh、W\n是三件不同的事。','完整 3C 選購指南在\nSmartPicksTW 網站')],
+'usb_c_cable':[
+("USB-C 線材\n都一樣嗎？","外形相同，能力可能不同"),
+("01 / 資料傳輸","部分 USB-C 線材\n只支援較低傳輸速度"),
+("02 / 充電功率","線材、充電器與設備\n都要符合支援條件"),
+("03 / 顯示器","影像輸出更需要\n設備與線材一起支援"),
+("買線材別只看接頭！","詳細指南 → SmartPicksTW")
+],
+'hdmi_refresh':[
+("4K HDMI\n不一定都是 60Hz！","解析度和更新率要分開看"),
+("01 / 螢幕能力","先看螢幕支援的\n解析度與更新率"),
+("02 / 來源設備","筆電與轉接器也要\n支援相同輸出模式"),
+("03 / 傳輸線材","傳輸線規格也可能\n限制訊號頻寬"),
+("規格要整套一起看。","更多實用知識 SmartPicksTW")
+],
+'pd_charger':[
+("100W 充電器\n不代表每孔都 100W！","多孔分享功率要留意"),
+("01 / 單孔輸出","先看各個連接埠的\n額定最高功率"),
+("02 / 同時充電","多孔使用時可能\n需要共用總輸出"),
+("03 / 協定相容","裝置的充電協定\n也會影響實際功率"),
+("看完整規格表，\n不只看最大瓦數！","SmartPicksTW 選購知識")
+],
+'ssd_enclosure':[
+("外接 SSD\n為何沒有標示那麼快？","傳輸速度取決於整條路徑"),
+("01 / SSD 本體","先確認 SSD 的\n介面與標示速度"),
+("02 / 外接盒","USB 外接盒規格\n可能限制最高速度"),
+("03 / 電腦接口","主機連接埠與線材\n也會形成速度瓶頸"),
+("速度看整套，\n不是只看 SSD！","SmartPicksTW 3C 知識")
+],
+'wifi_bands':[
+("Wi-Fi 2.4G\n跟 5G 怎麼選？","頻段不是網路方案名稱"),
+("01 / 覆蓋範圍","2.4GHz 一般穿透性\n較有利但容易擁擠"),
+("02 / 資料速率","5GHz 在相近條件下\n通常更有速度優勢"),
+("03 / 連線實況","路由器、距離及干擾\n都會影響實際表現"),
+("先選穩定連線，\n再追求理論速度。","SmartPicksTW 原創資訊")
+],
+'monitor_refresh':[
+("144Hz 螢幕\n不代表遊戲一定 144FPS！","螢幕更新率與遊戲幀率不同"),
+("01 / 更新率 Hz","表示顯示器每秒\n可更新畫面的次數"),
+("02 / 遊戲 FPS","表示電腦每秒\n產出的畫面幀數"),
+("03 / 連接能力","訊號線與顯示輸出\n也可能限制更新率"),
+("檢查 FPS、Hz、\n輸出介面三件事。","SmartPicksTW 3C 知識")
+],
+'usb_storage':[
+("USB 隨身碟\n容量跟速度是兩回事！","買前看清楚用途"),
+("01 / 容量","儲存空間大小\n不等於讀寫速度"),
+("02 / 標示速度","讀取與寫入數字\n可能有很大差異"),
+("03 / 實際測試","檔案大小和主機介面\n都會影響使用體驗"),
+("別只看容量價格！","SmartPicksTW 選購筆記")
+],
+'wireless_charge':[
+("磁吸功能\n不等於無線充電！","兩種功能可能分開設計"),
+("01 / 磁吸定位","磁鐵可以用來\n協助定位或固定"),
+("02 / 充電規格","手機與充電器都須\n具備相容無線充電能力"),
+("03 / 散熱條件","充電效率與溫升\n受到環境和擺放影響"),
+("磁吸和充電能力，\n請分別核對。","SmartPicksTW 原創指南")
+],
+'usb_power':[
+("標榜 5A 的線材\n能替你快充嗎？","電流標示不等於實際充電速度"),
+("01 / 供電來源","充電器輸出功率\n與協定要相容"),
+("02 / 線材能力","線材額定規格與\n辨識方式要符合需求"),
+("03 / 設備限制","手機或筆電自己決定\n可接受的充電模式"),
+("快充是整組協作，\n不是只換一條線。","SmartPicksTW 3C 選購")
+]
 }
 def f(size,b=False):return ImageFont.truetype(BOLD if b else FONT,size)
 def scene(topic,index,title,sub,path):
@@ -82,4 +145,6 @@ def render(slug,slides):
     subprocess.run([ffmpeg,'-loglevel','error','-y','-i',str(joined),'-i',str(wav),'-c:v','copy','-c:a','aac','-b:a','96k','-movflags','+faststart','-shortest',str(target)],check=True)
     print('Generated',target,target.stat().st_size)
 if __name__=='__main__':
-    for name,slides in TOPICS.items():render(name,slides)
+    pending=[(name,slides) for name,slides in TOPICS.items() if not (OUT/(name+'.mp4')).exists()]
+    if not pending: print('All original Reels completed; no re-upload of old topics.')
+    for name,slides in pending[:2]:render(name,slides)
