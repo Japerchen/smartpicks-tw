@@ -6,6 +6,9 @@ on:
   push:
     paths:
       - "growth/reels_cloud.py"
+      - "growth/verify_promotion_inventory.py"
+      - "growth/reel_product_map.json"
+      - "reels_catalog.json"
       - ".github/workflows/generate-reels.yml"
 permissions:
   contents: write
@@ -22,6 +25,8 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg fonts-noto-cjk
           python -m pip install --upgrade Pillow
+      - name: Verify public inventory matches Reel promotional mapping
+        run: python growth/verify_promotion_inventory.py
       - name: Produce original educational MP4 files
         run: python growth/reels_cloud.py
       - name: Inspect outputs
