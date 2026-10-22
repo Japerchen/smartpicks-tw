@@ -28,10 +28,10 @@ Metricool 免費方案每月最多**實際發布 20 篇**，同一內容發到 F
 
 | 發布日期（台灣時間） | Shorts | 影片 |
 |---|---|---|
-| 2026-11-11 20:00 | USB-C Hub 插上卻沒畫面？ | `reels/usb_c_hub.mp4` |
+| 2026-11-11 20:00 | USB-C 線材都一樣？ | `reels/usb_c_cable.mp4` |
 | 2026-11-25 20:00 | 磁吸手機支架為何吸不牢？ | `reels/phone_stand.mp4` |
 
-已成功回查 11/11 的 Metricool Post ID `403438543`、11/25 的 Post ID `403438751`，兩篇 `PENDING` 且 `autoPublish=true`、`youtubeData.type=short`。其餘三支為備用，**不能直接排滿**而超出免費方案的總篇數。若平台額度不足，應停止後續新排程；已排定不等於已公開。
+已成功回查 11/11 的 Metricool Post ID `403442945`、11/25 的 Post ID `403438751`，兩篇 `PENDING` 且 `autoPublish=true`、`youtubeData.type=short`。其餘三支為備用，**不能直接排滿**而超出免費方案的總篇數。若平台額度不足，應停止後續新排程；已排定不等於已公開。
 
 官方配額：https://help.metricool.com/main-differences-between-free-and-paid-plans-bl0v9
 
@@ -59,3 +59,6 @@ Metricool 免費方案每月最多**實際發布 20 篇**，同一內容發到 F
 - YouTube 已連線；使用 `youtube_shorts_manifest.json` 中逐篇 `metricoolStatus` 去重，兩篇預定中的狀態為 `SCHEDULED_PENDING`，其他三篇為 `NOT_SCHEDULED`。
 - 記錄 Metricool 回傳的貼文 ID 與實際排程狀態，避免重複。
 - 保留網站聯盟揭露，勿公布個別商品分潤率與佣金金額。
+
+## 2026-10-23 更正：USB-C Hub 並非現有導購商品
+已重新檢索網站 100 筆庫存：沒有 USB-C Hub／集線器。原本 11/11 的 USB-C Hub 教學 Short 已在 Metricool 原地更新成《USB-C 線材都一樣？》原創影片，保留 20:00 自動發布，新的 Metricool ID 為 `403442945`。文案只連結實際存在的 Type-C 充電線商品 `21295904242`（`https://s.shopee.tw/4LKIFe9whm`），明確區分知識內容與非實測商品，未改動蝦皮短網址。USB-C Hub 題材保留為未排程的純知識備稿，不能當作 100 商品中的商品推薦。
