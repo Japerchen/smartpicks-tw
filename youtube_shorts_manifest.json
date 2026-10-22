@@ -23,7 +23,7 @@
       "shortType": "original_text_motion_graphics",
       "vertical": true,
       "durationApproxSeconds": 20,
-      "suggestedLocalSchedule": "2026-11-11T20:00:00+08:00",
+      "suggestedLocalSchedule": null,
       "description": "USB-C 接頭的存在不代表一定有影像輸出功能；還要看筆電 DP Alt Mode、HDMI 解析度/更新率和 PD 供電。\n\n📚 原創 3C 選購知識與更多實用資訊：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=youtube&utm_medium=shorts&utm_campaign=usb_c_hub\n\n由 Tech Finds Lab × SmartPicksTW 整理。內容為一般選購知識，非親自開箱或產品測試。指南網站可能包含蝦皮聯盟行銷連結，透過連結購買可能使本站獲得分潤，實際規格請以原廠和賣場為準。\n\n#Shorts #SmartPicksTW #3C知識 #選購指南",
       "hashtags": [
         "#Shorts",
@@ -36,9 +36,7 @@
         "category": "Science & Technology",
         "needsChannelVerificationCheck": true
       },
-      "metricoolStatus": "SCHEDULED_PENDING",
-      "metricoolPostId": 403438543,
-      "metricoolPlannerUrl": "https://app.metricool.com/planner/calendar?blogId=7545618&openWithPostUuid=9076420206432503131"
+      "metricoolStatus": "NOT_SCHEDULED"
     },
     {
       "slug": "phone_stand",
@@ -96,7 +94,7 @@
       "shortType": "original_text_motion_graphics",
       "vertical": true,
       "durationApproxSeconds": 20,
-      "suggestedLocalSchedule": null,
+      "suggestedLocalSchedule": "2026-11-11T20:00:00+08:00",
       "description": "相同外形的 USB-C 線材，不代表有相同的充電功率、傳輸速度及影像輸出能力。\n\n📚 原創 3C 選購知識與更多實用資訊：\nhttps://japerchen.github.io/smartpicks-tw/guides.html?utm_source=youtube&utm_medium=shorts&utm_campaign=usb_c_cable\n\n由 Tech Finds Lab × SmartPicksTW 整理。內容為一般選購知識，非親自開箱或產品測試。指南網站可能包含蝦皮聯盟行銷連結，透過連結購買可能使本站獲得分潤，實際規格請以原廠和賣場為準。\n\n#Shorts #SmartPicksTW #3C知識 #選購指南",
       "hashtags": [
         "#Shorts",
@@ -109,7 +107,9 @@
         "category": "Science & Technology",
         "needsChannelVerificationCheck": true
       },
-      "metricoolStatus": "NOT_SCHEDULED"
+      "metricoolStatus": "SCHEDULED_PENDING",
+      "metricoolPostId": 403442945,
+      "metricoolPlannerUrl": "https://app.metricool.com/planner/calendar?blogId=7545618&openWithPostUuid=9076420206432503131"
     },
     {
       "slug": "hdmi_refresh",
@@ -135,5 +135,6 @@
       "metricoolStatus": "NOT_SCHEDULED"
     }
   ],
-  "updatedAt": "2026-10-23"
+  "updatedAt": "2026-10-23",
+  "notes": "Nov 11 Short changed from USB-C Hub guide (not in 100-product inventory) to USB-C cable topic, matched to a genuine affiliate product. YouTube schedule updated and verified."
 }
