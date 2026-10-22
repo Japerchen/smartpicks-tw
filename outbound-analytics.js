@@ -60,6 +60,11 @@
     document.body.appendChild(banner);
   }
   function boot() {
+    const prefButton = document.querySelector('[data-ga4-preferences]');
+    if (prefButton && valid) {
+      prefButton.hidden = false;
+      prefButton.addEventListener("click", function () { window.SmartPicksAnalytics.changeConsent(); });
+    }
     if (!valid) return;  // GA4 ID not configured: do not contact Google or show a banner.
     const decision = read();
     if (decision === "granted") enable();
