@@ -84,6 +84,20 @@ TOPICS={
 ("02 / 線材能力","線材額定規格與\n辨識方式要符合需求"),
 ("03 / 設備限制","手機或筆電自己決定\n可接受的充電模式"),
 ("快充是整組協作，\n不是只換一條線。","SmartPicksTW 3C 選購")
+],
+'usb_c_hub':[
+("USB-C Hub\\n接了卻沒畫面？","買前先看三個相容重點"),
+("01 / 先看設備","確認主機 USB-C 埠\\n是否支援影像輸出"),
+("02 / 看埠速","確認 Hub 介面規格\\n與連接裝置需求"),
+("03 / PD 供電","看支援輸入與\\n實際充電需求"),
+("別只看 Hub 外型！","選購指南在 SmartPicksTW")
+],
+'sneaker_fit':[
+("網購運動鞋\\n只看鞋碼會踩雷？","先查三件事再下單"),
+("01 / 腳長","對照品牌尺寸表\\n別只靠習慣鞋號"),
+("02 / 鞋楦","D、2E 等楦型標示\\n需核對實際版型"),
+("03 / 退換貨","確認賣場與品牌的\\n試穿及退貨規則"),
+("鞋碼、楦型、用途\\n三項一起看","SmartPicksTW 精選鞋款")
 ]
 }
 def f(size,b=False):return ImageFont.truetype(BOLD if b else FONT,size)
@@ -97,7 +111,7 @@ def scene(topic,index,title,sub,path):
     d.arc((455,175,1000,705),90,290,fill='#1c3d54',width=35)
     d.rounded_rectangle((67,82,651,176),radius=22,fill='#17334C')
     d.text((94,107),'S  SmartPicksTW',font=f(29,True),fill='white')
-    d.text((69,253),'原創 3C 選購小教室',font=f(25,True),fill='#FF9978')
+    d.text((69,253),'SmartPicksTW 原創選購小教室',font=f(25,True),fill='#FF9978')
     sz=60 if max(map(len,title.split('\n')))<=12 else 47
     y=350
     for line in title.split('\n'):
