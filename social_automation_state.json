@@ -37,10 +37,12 @@
       "status": "scheduled"
     },
     {
-      "product_id": "42719651993",
+      "product_id": "41251665857",
       "date": "2026-11-01",
-      "label": "adidas STADT",
-      "status": "scheduled"
+      "label": "POK DOT Elite smartphone stand (updated from adidas STADT in Metricool)",
+      "status": "scheduled",
+      "metricool_post_id": 410106783,
+      "note": "Verified pending Facebook post 2026-11-01; duplicate product from 2026-10-26 recorded historically. Avoid repeating this product again."
     }
   ],
   "reels": [
@@ -63,5 +65,7 @@
       "status": "scheduled",
       "metricool_post_id": 403273885
     }
-  ]
+  ],
+  "lastReconciledAt": "2026-10-29",
+  "inventoryNotes": "Current site has 105 products, with two CSV NT$1 items excluded. This history only records past posts and should not be used as a product source."
 }
