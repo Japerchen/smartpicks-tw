@@ -3,9 +3,9 @@
   "createdAt": "2026-10-23",
   "inventorySource": "index.html#inventory",
   "catalogSource": "reels_catalog.json",
-  "scope": "Explicit ID mapping. General educational topics are separated from real 100-product offers.",
+  "scope": "Reels topic IDs map to current live SmartPicksTW inventory (105 items on 2026-10-29); 3C + selected sneakers",
   "affiliateLinks": "use only live product inventory affiliate_url; never generate",
-  "matchingPolicy": "Never infer product functionality beyond the title; exclude flagged goods; don't claim hands-on tests",
+  "matchingPolicy": "Only matching real inventory item IDs, current short links, non-NT$1 pricing, flags empty, and title-relevant guidance. No invented hands-on tests or efficacy claims.",
   "topics": [
     {
       "slug": "phone_stand",
@@ -105,6 +105,27 @@
       ],
       "label": "快充線材",
       "accuracyNote": "不能由標題中的 240W 或 PD 推定能在任意裝置達到額定功率"
+    },
+    {
+      "slug": "usb_c_hub",
+      "promotionMode": "product_related",
+      "eligibleForAutomaticDirectProductPromotion": true,
+      "productIds": [
+        "28454306109"
+      ],
+      "label": "MONITORMATE Ci6 USB-C Hub",
+      "accuracyNote": "僅為選購觀念延伸，商品標題未證明所有設備具備螢幕輸出能力，依裝置及原廠規格為準。"
+    },
+    {
+      "slug": "sneaker_fit",
+      "promotionMode": "product_related",
+      "eligibleForAutomaticDirectProductPromotion": true,
+      "productIds": [
+        "23814312376"
+      ],
+      "label": "New Balance 5740 D 楦復古鞋",
+      "accuracyNote": "只做尺碼、楦型與退換貨須核對的教育內容；不得宣稱穿著感受或功能測試。"
     }
-  ]
+  ],
+  "updatedAt": "2026-10-29"
 }
