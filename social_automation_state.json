@@ -43,6 +43,20 @@
       "status": "scheduled",
       "metricool_post_id": 410106783,
       "note": "Verified pending Facebook post 2026-11-01; duplicate product from 2026-10-26 recorded historically. Avoid repeating this product again."
+    },
+    {
+      "product_id": "28454306109",
+      "date": "2026-11-02",
+      "label": "MONITORMATE Ci6 USB-C Hub",
+      "status": "scheduled",
+      "metricool_post_id": 412813379
+    },
+    {
+      "product_id": "23814312376",
+      "date": "2026-11-08",
+      "label": "New Balance 5740 M5740VPD D楦",
+      "status": "scheduled",
+      "metricool_post_id": 412813417
     }
   ],
   "reels": [
@@ -66,6 +80,6 @@
       "metricool_post_id": 403273885
     }
   ],
-  "lastReconciledAt": "2026-10-29",
-  "inventoryNotes": "Current site has 105 products, with two CSV NT$1 items excluded. This history only records past posts and should not be used as a product source."
+  "lastReconciledAt": "2026-11-01",
+  "inventoryNotes": "2026-11-01 inventory checked: 105 products, 0 NT$1, 105 structurally valid affiliate links, 0 licensed product images configured. Two verified November Facebook POSTs added. Nov 3 and Nov 7 Reels not scheduled: binary MP4 directory metadata could not be validated using available GitHub file tool; no unauthorized or unverified video substituted."
 }
