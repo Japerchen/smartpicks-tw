@@ -57,6 +57,12 @@
       "label": "New Balance 5740 M5740VPD D楦",
       "status": "scheduled",
       "metricool_post_id": 412813417
+    },
+    {
+      "product_id": "22727174524",
+      "date": "2026-11-15",
+      "label": "New Balance 574 ML574EVB D楦",
+      "status": "scheduled"
     }
   ],
   "reels": [
@@ -78,8 +84,14 @@
       "slug": "power_bank",
       "status": "scheduled",
       "metricool_post_id": 403273885
+    },
+    {
+      "date": "2026-11-14",
+      "slug": "usb_power",
+      "status": "scheduled",
+      "metricool_post_id": 420620083
     }
   ],
-  "lastReconciledAt": "2026-11-01",
-  "inventoryNotes": "2026-11-01 inventory checked: 105 products, 0 NT$1, 105 structurally valid affiliate links, 0 licensed product images configured. Two verified November Facebook POSTs added. Nov 3 and Nov 7 Reels not scheduled: binary MP4 directory metadata could not be validated using available GitHub file tool; no unauthorized or unverified video substituted."
+  "lastReconciledAt": "2026-11-08",
+  "inventoryNotes": "2026-11-08: 105 items, 0 NT$1, 105 structurally valid affiliate links, 1 flagged item excluded, 0 licensed product images configured. Nov 14 Reel and Nov 15 shoe POST verified Pending in Metricool. Nov 9 and Nov 10 skipped conservatively because exact monthly free-plan quota could not be verified."
 }
